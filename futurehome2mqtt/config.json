@@ -16,7 +16,8 @@
         "fimpport": 1884,
         "client_id": "fimptoha",
         "debug": false,
-        "selected_devices": ""
+        "selected_devices": "",
+        "token": "",
       },
       "schema": {
         "fimpserver": "str",
@@ -25,6 +26,7 @@
         "fimpport": "int",
         "client_id": "str",
         "debug": "bool",
-        "selected_devices": "str"
+        "selected_devices": "str",
+        "token": "str",
       }
   }
