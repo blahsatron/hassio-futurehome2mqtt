@@ -68,7 +68,7 @@ if __name__ == "__main__":
     username = os.environ.get('FIMPUSERNAME')
     password = os.environ.get('FIMPPASSWORD')
     port = int(os.environ.get('FIMPPORT'))
-    token = os.environ.get('HASSIO_TOKEN')
+    token = os.environ.get('TOKEN')
     ha_host = os.environ.get('HA_HOST')
     client_id = os.environ.get('CLIENT_ID')
     debug = os.environ.get('DEBUG')
