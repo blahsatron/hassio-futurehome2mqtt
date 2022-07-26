@@ -101,7 +101,7 @@ class Light:
         # )
         # print("Brightness value is", self._brightness_value)
 
-        topic_fimp = "pt:j1/mt:cmd/rt:dev/rn:zw/ad:1/sv:%s/ad:%s_1" % (
+        topic_fimp = "pt:j1/mt:cmd/rt:dev/rn:zw/ad:1/sv:%s/ad:%s_0" % (
             self._service_name,
             self._address,
         )
